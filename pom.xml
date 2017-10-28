@@ -48,6 +48,12 @@
 				<artifactId>dubbo-ssm-news-api</artifactId>
 				<version>${cn.wt.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>cn.wt</groupId>
+				<artifactId>dubbo-ssm-news-service</artifactId>
+				<version>${cn.wt.version}</version>
+			</dependency>
 			
 			<dependency>
 				<groupId>junit</groupId>
@@ -282,7 +288,7 @@
 		</profile>
 	</profiles>
 	<build>	<!-- 定义编译时的配置项 -->
-		<finalName>parent</finalName>
+		<finalName>dubbo-ssm-news</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -323,5 +329,6 @@
 	</build>
 	<modules>
 		<module>dubbo-ssm-news-api</module>
+		<module>dubbo-ssm-news-service</module>
 	</modules>
 </project>
