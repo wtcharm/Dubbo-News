@@ -8,6 +8,7 @@ public class News implements Serializable {
 		private String title;
 		private String note;
 		private String photo;
+		
 		public Long getNid() {
 			return nid;
 		}
