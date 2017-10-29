@@ -3,7 +3,7 @@
 "mybatis-3-mapper.dtd" >
 <mapper namespace="cn.wt.dubbo.ssm.news.dao.INewsDAO">
   	<insert id="doCreate" parameterType="News">
-  		INSTERT INTO news(title,note,photo) 
+  		insert INTO news(title,note,photo) 
   		VALUE(#{title},#{note},#{photo})
   	</insert>
 </mapper>
