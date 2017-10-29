@@ -13,7 +13,7 @@
 	<dubbo:protocol name="dubbo" port="${dubbo.protocol.port}"/> 
 	<!-- 将远程接口的实现子类配置的服务之中，这是一个关键的步骤 -->
 	<dubbo:service id="newsService" interface="cn.wt.dubbo.ssm.news.service.INewsService" 
-		ref="NewsServiceImplBack"
+		
 	version="${dubbo.interface.version}"/>
 	
 </beans>
